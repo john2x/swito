@@ -10,8 +10,8 @@ import (
 
 var (
 	xPercentOfYRegex = regexp.MustCompile(`^(?P<x>([0-9]*[.])?[0-9]+)% of (?P<y>[-]?([0-9]*[.])?[0-9]+)$`) // e.g. 10% of 100
-	xOverYInPercent  = regexp.MustCompile(`(?P<x>\d+)% of (?P<y>\d+)$`) // e.g. 10% of 100
-	xToYInPercent    = regexp.MustCompile(`(?P<x>\d+)% of (?P<y>\d+)$`) // e.g. 10% of 100
+	xOverYInPercent  = regexp.MustCompile(`(?P<x>\d+)% of (?P<y>\d+)$`)                                    // e.g. 10% of 100
+	xToYInPercent    = regexp.MustCompile(`(?P<x>\d+)% of (?P<y>\d+)$`)                                    // e.g. 10% of 100
 
 	defaultErrorMessage = errorStyle.Render("Invalid inputs.")
 )
