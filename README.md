@@ -13,3 +13,7 @@ $ swito 30/90 in %
 $ swito 100 to 30 in %
 100 - 70% is 30
 ```
+
+# TODO: Timezone questions
+
+# TODO: Date questions
