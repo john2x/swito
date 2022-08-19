@@ -25,3 +25,9 @@ $ swito 100 to 30 in %
 # TODO: Timezone questions
 
 # TODO: Date questions
+
+# TODO: Timestamp questions
+
+# TODO: Currency questions
+
+# TODO: Geography questions
